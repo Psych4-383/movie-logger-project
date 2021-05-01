@@ -1,0 +1,132 @@
+*{
+    scroll-behavior:smooth;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'lexend';
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 5rem;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline-block;
+    margin:15px 40px;
+    list-style: none;
+}
+nav ul {
+    margin-right: 4rem;
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: 1s;
+}
+nav img {
+    padding: 14px 100px;
+}
+
+nav ul a:hover{
+    color: rgba(255, 255, 255, 0.514);
+}
+
+.btn {
+    background-color: cyan;
+    padding: 20px 0px;
+    border-radius: 20px;
+    color: black;
+    transition-duration: 400ms;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.addArea{
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchBar{
+    width: 400px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.search-btn {
+    border: none;
+    width: max-content;
+    font-family: 'lexend deca';
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.myMovies{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'lexend deca';
+    flex-direction: column;
+}
+#about {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 150px;
+    font-family: 'lexend';
+    font-weight: bolder;
+}
+#aboutpara{
+    font-size: 20px;
+}
+
+.card{
+    flex-basis: 17rem;
+    height: fit-content;
+    border: 3px solid black;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+}
+.addMovieBTN {
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    font-family: 'lexend deca';
+    border-radius: 7px;
+}
+.flex{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space;
+    flex-flow: wrap;
+}
+#addForm{
+    margin: 100px;
+}
+#movies {
+    display: flex;
+    flex-direction: row;
+}
+#myMovieHeading{
+    margin: 89px 20px 20px ;
+}
